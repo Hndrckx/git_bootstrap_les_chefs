@@ -18105,7 +18105,8 @@ fieldset:disabled .btn {
   color: #edf2ef;
 }
 
-a::hover {
+.red_hover:hover {
   color: #edf2ef;
+  background-color: #cf1f1f;
 }
 /*# sourceMappingURL=app.css.map */
