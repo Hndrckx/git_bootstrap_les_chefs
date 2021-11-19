@@ -18103,4 +18103,12 @@ fieldset:disabled .btn {
 .nav-item:hover {
   background-color: #ed3746;
 }
+
+.indic_size {
+  padding: 75px;
+}
+
+.courgette {
+  font-family: 'Courgette', cursive;
+}
 /*# sourceMappingURL=app.css.map */
