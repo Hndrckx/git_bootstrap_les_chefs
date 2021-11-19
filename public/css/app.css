@@ -18108,6 +18108,15 @@ fieldset:disabled .btn {
   padding: 75px;
 }
 
+.carousel_txt {
+  font-size: 75px;
+}
+
+.title_menu {
+  font-size: 60px;
+  margin: 0;
+}
+
 .courgette {
   font-family: 'Courgette', cursive;
 }
