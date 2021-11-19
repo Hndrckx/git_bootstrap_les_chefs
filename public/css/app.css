@@ -18117,6 +18117,10 @@ fieldset:disabled .btn {
   margin: 0;
 }
 
+.red_ban {
+  width: 90%;
+}
+
 .courgette {
   font-family: 'Courgette', cursive;
 }
