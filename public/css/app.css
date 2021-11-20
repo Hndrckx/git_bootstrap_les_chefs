@@ -13170,9 +13170,10 @@ fieldset:disabled .btn {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 auto;
           flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
+  width: 15px;
+  height: 15px;
   padding: 0;
+  margin-top: 75px;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
@@ -13180,6 +13181,7 @@ fieldset:disabled .btn {
   background-color: #fff;
   background-clip: padding-box;
   border: 0;
+  border-radius: 100%;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   opacity: 0.5;
