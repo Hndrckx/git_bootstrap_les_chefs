@@ -23,16 +23,20 @@
                         <div class="nav1 ps-4">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 border-top border-bottom border-white">
                                 <li class="nav-item p-2">
-                                    <a class="nav-link active text-light px-4" aria-current="page" href="#">HOME</a>
+                                    <a class="nav-link active text-light px-4" aria-current="page"
+                                        href="#anch_home">HOME</a>
                                 </li>
                                 <li class="nav-item p-2">
-                                    <a class="nav-link active text-light px-4" aria-current="page" href="#">ABOUT US</a>
+                                    <a class="nav-link active text-light px-4" aria-current="page"
+                                        href="#anch_about">ABOUT US</a>
                                 </li>
                                 <li class="nav-item p-2">
-                                    <a class="nav-link active text-light px-4" aria-current="page" href="#">MENU
+                                    <a class="nav-link active text-light px-4" aria-current="page"
+                                        href="#anch_menu">MENU
                                         LIST</a></li>
                                 <li class="nav-item p-2">
-                                    <a class="nav-link active text-light px-4" aria-current="page" href="#">TEAM</a>
+                                    <a class="nav-link active text-light px-4" aria-current="page"
+                                        href="#anch_team">TEAM</a>
                                 </li>
                             </ul>
                         </div>
@@ -41,16 +45,17 @@
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 border-top border-bottom border-white">
                                 <li class="nav-item p-2">
                                     <a class="nav-link active text-light px-4" aria-current="page"
-                                        href="#">RESERVATION</a></li>
+                                        href="#anch_booking">RESERVATION</a></li>
                                 <li class="nav-item p-2">
-                                    <a class="nav-link active text-light px-4" aria-current="page" href="#">BLOG</a>
+                                    <a class="nav-link active text-light px-4" aria-current="page"
+                                        href="#anch_blog">BLOG</a>
                                 </li>
                                 <li class="nav-item p-2">
                                     <a class="nav-link active text-light px-4" aria-current="page"
-                                        href="#">TESTIMONIALS</a></li>
+                                        href="#anch_testi">TESTIMONIALS</a></li>
                                 <li class="nav-item p-2">
-                                    <a class="nav-link active text-light px-4" aria-current="page" href="#">CONTACT
-                                        US</a></li>
+                                    <a class="nav-link active text-light px-4" aria-current="page"
+                                        href="#anch_contact">CONTACT US</a></li>
                             </ul>
                         </div>
                     </div>
@@ -58,15 +63,15 @@
             </nav>
             <!--Navbar End-->
             <!--Carousel Start-->
-            <div class="head_carousel mt-5 pb-5">
+            <div class="head_carousel mt-5 pb-5" id="anch_home">
                 <div id="carouselExampleIndicators" class="carousel slide indic_size pt-2" data-bs-ride="carousel">
                     <div class="carousel-indicators rounded-circle">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                             class="active mt-5" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"
-                        class="mt-5"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"
-                        class="mt-5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2" class="mt-5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3" class="mt-5"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active text-center">
@@ -129,7 +134,7 @@
                 <div class="container content_white_page  bg-white p-0">
                     <div class="d-flex justify-content-between">
                         <img src="./public/img/box-left-top.png">
-                        <div>
+                        <div id="anch_about">
                             <p class="title_menu courgette offset-3 text-center pt-4">
                                 <span class="text-danger">OUR</span> Story</p>
                             <img src="./public/img/decoration_line.png">
@@ -152,7 +157,7 @@
                     </div>
                     <!--Story End-->
                     <!--Menu Start-->
-                    <div class="pt-2 pb-5">
+                    <div class="pt-2 pb-5" id="anch_menu">
                         <p class="title_menu courgette offset-3 text-center pt-4">
                             <span class="text-danger">OUR</span> Menu List</p>
                         <div class="d-flex justify-content-center">
@@ -176,7 +181,7 @@
         <section>
             <!--Chef Start-->
             <div class="bg_content_one pt-5 pb-5" style="background-image: url(./public/img/team_background.jpg);">
-                <div class="pt-2 pb-5">
+                <div class="pt-2 pb-5" id="anch_team">
                     <p class="title_menu courgette offset-3 text-center pt-4">
                         <span class="text-danger">MEET</span><span class="text-light"> Our Chef</span></p>
                     <div class="d-flex justify-content-center">
@@ -217,7 +222,8 @@
         <!--Section Start : Booking & Blog -->
         <section class="content_one_menu">
             <!--Booking Start-->
-            <div class="bg_content_one pt-5 pb-5" style="background-image: url(./public/img/main_bg.jpg);">
+            <div class="bg_content_one pt-5 pb-5" id="anch_booking"
+                style="background-image: url(./public/img/main_bg.jpg);">
                 <div class="container content_white_page  bg-white p-0">
                     <div class="d-flex justify-content-between">
                         <img src="./public/img/box-left-top-grey.png">
@@ -294,7 +300,7 @@
                     </div>
                     <!--Booking End-->
                     <!--Blog Start-->
-                    <div class="pt-2 pb-5">
+                    <div class="pt-2 pb-5" id="anch_blog">
                         <p class="title_menu courgette offset-3 text-center pt-4">
                             <span class="text-danger">OUR</span> Blog</p>
                         <div class="d-flex justify-content-center">
@@ -303,28 +309,28 @@
                     </div>
                     <div class="container w-75 d-flex justify-content-center">
                         <div class="card border-0 m-4" style="width: 40%;">
-                            <img class="card-img-top card_img_border"
-                                src="./public/img/blog_img1.jpg" alt="Salade">
+                            <img class="card-img-top card_img_border" src="./public/img/blog_img1.jpg" alt="Salade">
                             <div class="card-body">
                                 <div class="d-flex justify-content-center mb-4">
-                                <div class="red_ban bg-danger rounded-3">
-                                    <p class="text-light pt-3 pb-1 ps-1"><strong>12</strong> April 2021 / <strong>20</strong>
-                                        Comments / <strong>35</strong> Likes</p>
-                                </div>
+                                    <div class="red_ban bg-danger rounded-3">
+                                        <p class="text-light pt-3 pb-1 ps-1"><strong>12</strong> April 2021 /
+                                            <strong>20</strong>
+                                            Comments / <strong>35</strong> Likes</p>
+                                    </div>
                                 </div>
                                 <h5 class="card-title">Salade Grecque</h5>
                                 <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                         </div>
                         <div class="card border-0 m-4" style="width: 40%;">
-                            <img class="card-img-top card_img_border"
-                                src="./public/img/blog_img2.jpg" alt="Salade">
+                            <img class="card-img-top card_img_border" src="./public/img/blog_img2.jpg" alt="Salade">
                             <div class="card-body">
                                 <div class="d-flex justify-content-center mb-4">
-                                <div class="red_ban bg-danger rounded-3">
-                                    <p class="text-light pt-3 pb-1 ps-1"><strong>24</strong> March 2021 / <strong>18</strong>
-                                        Comments / <strong>46</strong> Likes</p>
-                                </div>
+                                    <div class="red_ban bg-danger rounded-3">
+                                        <p class="text-light pt-3 pb-1 ps-1"><strong>24</strong> March 2021 /
+                                            <strong>18</strong>
+                                            Comments / <strong>46</strong> Likes</p>
+                                    </div>
                                 </div>
                                 <h5 class="card-title">Salade César</h5>
                                 <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -350,7 +356,7 @@
             <!--Testimonials Start-->
             <div class="bg_content_one pt-5 pb-5"
                 style="background-image: url(./public/img/testimonials_background.jpg);">
-                <div class="pt-2 pb-5">
+                <div class="pt-2 pb-5" id="anch_testi">
                     <p class="title_menu courgette offset-3 text-center pt-4">
                         <span class="text-danger">CLIENT</span><span class="text-light"> Testimonials</span></p>
                     <div class="d-flex justify-content-center">
@@ -362,11 +368,11 @@
                         <div class="row g-0">
                             <div class="col-md-4">
                                 <img src="./public/img/testimonial1.jpg"
-                                    class="img-fluid rounded-circle border border-4 border-secondary">
+                                    class="img-fluid rounded-circle border border-4 border-gray">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <div class="txt_testimonial border border-1 border-secondary rounded-3 me-2">
+                                    <div class="txt_testimonial border border-1 border-gray rounded-3 me-2">
                                         <h5 class="card-title text-light m-0 ps-3 pt-2">Pamela Mitchell</h5>
                                         <p class="card-text text-danger m-0 ps-3">Manager</p>
                                         <p class="card-text text-light ps-3 pb-2">Lorem ipsum dolor sit amet consectetur
@@ -380,7 +386,7 @@
                         <div class="row g-0">
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <div class="txt_testimonial border border-1 border-secondary rounded-3 ms-2">
+                                    <div class="txt_testimonial border border-1 border-gray rounded-3 ms-2">
                                         <h5 class="card-title text-light text-end m-0 pe-3 pt-2">Sarah Mitchell</h5>
                                         <p class="card-text text-danger text-end m-0 pe-3">Manager</p>
                                         <p class="card-text text-light text-end pe-3 pb-2">Lorem ipsum dolor sit amet
@@ -391,7 +397,7 @@
                             </div>
                             <div class="col-md-4">
                                 <img src="./public/img/testimonial1.jpg"
-                                    class="img-fluid rounded-circle border border-4 border-secondary">
+                                    class="img-fluid rounded-circle border border-4 border-gray">
                             </div>
                         </div>
                     </div>
@@ -402,7 +408,8 @@
         <!--Section Start : Contact-->
         <section>
             <!--Contact Start-->
-            <div class="bg_content_one pt-5 pb-5" style="background-image: url(./public/img/main_bg.jpg);">
+            <div class="bg_content_one pt-5 pb-5" id="anch_contact"
+                style="background-image: url(./public/img/main_bg.jpg);">
                 <div>
                     <p class="title_menu courgette offset-3 text-center pt-4">
                         <span class="text-danger">OUR</span> Contact</p>
@@ -412,7 +419,7 @@
                 </div>
                 <div class="container d-flex justify-content-center mt-5">
                     <div
-                        class="contact_card w-25 bg-danger d-flex justify-content-center rounded-3 flex-column text-center mt-5 mb-4 border border-5 border-danger">
+                        class="contact_card w-25 bg-danger d-flex justify-content-center flex-column text-center mt-5 mb-4">
                         <i class="fas fa-map-marker-alt text-light fs-2 ps-3 pe-3 pt-3 pb-1"></i>
                         <p class="text-light m-0">Rue Duquesnoy 136, 1000 Bruxelles</p>
                         <hr>
@@ -430,74 +437,90 @@
     </main>
     <!--Start Footer-->
     <footer>
-        <div class="bg_content_one pt-2 pb-2"
-        style="background-image: url(./public/img/footer_background.jpg);">
-        <div class="container foot_content">
-            <div class="row">
-                <div class="col-4">
-                    <h5 class="text-light pt-4 pb-3">ABOUT US</h5>
-                    <p class="text-light"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aspernatur dignissimos at est ratione ipsa commodi eos in blanditiis, dolorum iure hic !</p>
-                    <div class="d-flex">
-                        <i class="fab fa-facebook-f text-light py-2 pe-3 fs-3"></i>
-                        <i class="fab fa-google-plus-g text-light py-2 px-3 fs-3"></i>
-                        <i class="fab fa-pinterest-p text-light py-2 px-3 fs-3"></i>
-                        <i class="fab fa-linkedin-in text-light py-2 px-3 fs-3"></i>
+        <div class="bg_content_one pt-2 pb-2" style="background-image: url(./public/img/footer_background.jpg);">
+            <div class="container foot_content">
+                <div class="row">
+                    <div class="col-4">
+                        <h5 class="text-light pt-4 pb-3">ABOUT US</h5>
+                        <p class="text-light"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                            aspernatur dignissimos at est ratione ipsa commodi eos in blanditiis, dolorum iure hic !</p>
+                        <div class="d-flex">
+                            <a class="icon_hover" href=""><i class="fab fa-facebook-f py-2 pe-3 fs-3"></i></a>
+                            <a class="icon_hover" href=""><i class="fab fa-google-plus-g py-2 px-3 fs-3"></i></a>
+                            <a class="icon_hover" href=""><i class="fab fa-pinterest-p py-2 px-3 fs-3"></i></a>
+                            <a class="icon_hover" href=""><i class="fab fa-linkedin-in py-2 px-3 fs-3"></i></a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <h5 class="text-light pt-4 ms-5 pb-3">INSTAGRAM</h5>
-                    <div class="ms-5 d-flex flex-wrap justify-content-between">
-                        <div class="insta_img"><img class="p-1" src="./public/img/instragram_gallery_img1.jpg"></div>
-                        <div class="insta_img"><img class="p-1" src="./public/img/instragram_gallery_img2.jpg"></div>
-                        <div class="insta_img"><img class="p-1" src="./public/img/instragram_gallery_img1.jpg"></div>
-                        <div class="insta_img"><img class="p-1" src="./public/img/instragram_gallery_img2.jpg"></div>
-                        <div class="insta_img"><img class="p-1" src="./public/img/instragram_gallery_img1.jpg"></div>
-                        <div class="insta_img"><img class="p-1" src="./public/img/instragram_gallery_img2.jpg"></div>
-                        <div class="insta_img"><img class="p-1" src="./public/img/instragram_gallery_img1.jpg"></div>
-                        <div class="insta_img"><img class="p-1" src="./public/img/instragram_gallery_img2.jpg"></div>
+                    <div class="col-4">
+                        <h5 class="text-light pt-4 ms-5 pb-3">INSTAGRAM</h5>
+                        <div class="ms-5 d-flex flex-wrap justify-content-between">
+                            <div class="insta_img"><img class="p-1" src="./public/img/instragram_gallery_img1.jpg">
+                            </div>
+                            <div class="insta_img"><img class="p-1" src="./public/img/instragram_gallery_img2.jpg">
+                            </div>
+                            <div class="insta_img"><img class="p-1" src="./public/img/instragram_gallery_img1.jpg">
+                            </div>
+                            <div class="insta_img"><img class="p-1" src="./public/img/instragram_gallery_img2.jpg">
+                            </div>
+                            <div class="insta_img"><img class="p-1" src="./public/img/instragram_gallery_img1.jpg">
+                            </div>
+                            <div class="insta_img"><img class="p-1" src="./public/img/instragram_gallery_img2.jpg">
+                            </div>
+                            <div class="insta_img"><img class="p-1" src="./public/img/instragram_gallery_img1.jpg">
+                            </div>
+                            <div class="insta_img"><img class="p-1" src="./public/img/instragram_gallery_img2.jpg">
+                            </div>
 
 
+                        </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <h5 class="text-light pt-4 ms-5 pb-3">POPULAR TAGS</h5>
-                    <div class="ms-5 d-flex flex-wrap">
-                        <div class="w-25 me-1">
-                        <p class="tags_pill text-light px-2 py-1 bg-danger border border-1 border-light rounded-pill text-center">
-                            Restaurant</p>
-                        </div>
-                        <div class="w-50 me-1">
-                        <p class="tags_pill text-light px-2 py-1 bg-danger border border-1 border-light rounded-pill text-center">
-                            Responsive Design</p>
-                        </div>
-                        <div class="w-25 me-1">
-                        <p class="tags_pill text-light px-2 py-1 bg-danger border border-1 border-light rounded-pill text-center">
-                            Hotel</p>
-                        </div>
-                        <div class="w-50 me-1">
-                        <p class="tags_pill text-light px-2 py-1 bg-danger border border-1 border-light rounded-pill text-center">
-                            Bloc Section</p>
-                        </div>
-                        <div class="w-25 me-1">
-                        <p class="tags_pill text-light px-2 py-1 bg-danger border border-1 border-light rounded-pill text-center">
-                            SEO</p>
-                        </div>
-                        <div class="w-25 me-1">
-                        <p class="tags_pill text-light px-2 py-1 bg-danger border border-1 border-light rounded-pill text-center">
-                            Cuisine</p>
-                        </div>
-                        <div class="w-25 me-1">
-                        <p class="tags_pill text-light px-2 py-1 bg-danger border border-1 border-light rounded-pill text-center">
-                            Graphic</p>
-                        </div>
-                        <div class="w-25 me-1">
-                        <p class="tags_pill text-light px-2 py-1 bg-danger border border-1 border-light rounded-pill text-center">
-                            Food</p>
+                    <div class="col-4">
+                        <h5 class="text-light pt-4 ms-5 pb-3">POPULAR TAGS</h5>
+                        <div class="ms-5 d-flex flex-wrap">
+                            <div class="w-25 me-1">
+                                <p
+                                    class="tags_pill text-light px-2 py-1 bg-danger border border-1 border-light rounded-pill text-center">
+                                    Restaurant</p>
+                            </div>
+                            <div class="w-50 me-1">
+                                <p
+                                    class="tags_pill text-light px-2 py-1 bg-danger border border-1 border-light rounded-pill text-center">
+                                    Responsive Design</p>
+                            </div>
+                            <div class="w-25 me-1">
+                                <p
+                                    class="tags_pill text-light px-2 py-1 bg-danger border border-1 border-light rounded-pill text-center">
+                                    Hotel</p>
+                            </div>
+                            <div class="w-50 me-1">
+                                <p
+                                    class="tags_pill text-light px-2 py-1 bg-danger border border-1 border-light rounded-pill text-center">
+                                    Bloc Section</p>
+                            </div>
+                            <div class="w-25 me-1">
+                                <p
+                                    class="tags_pill text-light px-2 py-1 bg-danger border border-1 border-light rounded-pill text-center">
+                                    SEO</p>
+                            </div>
+                            <div class="w-25 me-1">
+                                <p
+                                    class="tags_pill text-light px-2 py-1 bg-danger border border-1 border-light rounded-pill text-center">
+                                    Cuisine</p>
+                            </div>
+                            <div class="w-25 me-1">
+                                <p
+                                    class="tags_pill text-light px-2 py-1 bg-danger border border-1 border-light rounded-pill text-center">
+                                    Graphic</p>
+                            </div>
+                            <div class="w-25 me-1">
+                                <p
+                                    class="tags_pill text-light px-2 py-1 bg-danger border border-1 border-light rounded-pill text-center">
+                                    Food</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
         <div class="bg-danger">
             <br>

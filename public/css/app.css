@@ -18136,6 +18136,19 @@ hr {
   border-radius: 10%;
 }
 
+.contact_card {
+  border: solid 15px #dc3545;
+  border-radius: 3%;
+}
+
+.icon_hover {
+  color: #edf2ef;
+}
+
+.icon_hover:hover {
+  color: #dc3545;
+}
+
 .courgette {
   font-family: 'Courgette', cursive;
 }
