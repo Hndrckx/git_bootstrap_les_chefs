@@ -18121,6 +18121,10 @@ fieldset:disabled .btn {
   width: 90%;
 }
 
+hr {
+  color: #edf2ef;
+}
+
 .courgette {
   font-family: 'Courgette', cursive;
 }
