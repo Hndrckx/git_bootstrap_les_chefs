@@ -18153,6 +18153,14 @@ hr {
   color: #dc3545;
 }
 
+.deco {
+  margin-top: -15px;
+}
+
+.deco_bot {
+  margin-bottom: -15px;
+}
+
 .icon_menu {
   color: #b5b4b6;
   font-size: 70px;
