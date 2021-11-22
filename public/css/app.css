@@ -18181,6 +18181,34 @@ hr {
   border-right: solid 5px #dc3545;
 }
 
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .border_deco {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .img_menu {
+    width: 75px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .btn_menu_position {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .media_title {
+    max-width: 70%;
+  }
+}
+
 .courgette {
   font-family: 'Courgette', cursive;
 }
